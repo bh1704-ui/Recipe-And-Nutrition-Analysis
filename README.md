@@ -114,20 +114,21 @@ Auto-log recipe creation events
 Recipe-And-Nutrition-Analysis/
 │
 ├── pages/
-│   ├── admin.py              # Admin dashboard
-│   ├── user.py               # User dashboard
+│   ├── admin.py                   # Admin dashboard
+│   ├── user.py                    # User dashboard
 │
-├── home.py                   # Main entry page
-├── init_admin.py             # Admin setup
-├── shared.py                 # DB engine + query helpers
-├── fix_passwords.py          # Utility script
+├── home.py                        # Main Streamlit entry page
+├── init_admin.py                  # Initialize admin account
+├── shared.py                      # Database connection + helper functions
+├── fix_passwords.py               # Utility script to sanitize passwords
 │
 ├── mysql/
-│   └── dbms_miniproject_Final.sql  # Full DB schema + data
+│   └── dbms_miniproject_Final.sql # Full MySQL schema + sample data
 │
-├── requirements.txt          # Python dependencies
+├── requirements.txt               # Python dependencies
 ├── .gitignore
 └── README.md
+
 
 ⚙️ Installation & Setup
 1️⃣ Clone the repository
