@@ -5,9 +5,10 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
-*.sqlite3
-*.db
 *.log
+
+# Allow SQL project files (important)
+# *.sql   ❌ REMOVE this line
 
 # Virtual environment
 .venv/
@@ -25,11 +26,10 @@ venv/
 *.tmp
 *.swp
 
-# MySQL dumps
-*.sql
-*.mysql
+# MySQL dumps (safe to ignore)
 *.dump
 *.backup
+*.mysql
 
 # OS / Editor files
 .DS_Store
@@ -38,19 +38,14 @@ desktop.ini
 
 # VS Code settings
 .vscode/
-.code-workspace
+*.code-workspace
 
-# Node / web UI (if ever added)
+# Node / web UI (future)
 node_modules/
 dist/
 build/
 
-# Reports / documents (optional, keep only source)
-*.docx
-*.pdf
-*.pptx
-
-# Python build artifacts
+# Build artifacts
 build/
 dist/
 *.egg-info/
@@ -58,3 +53,11 @@ dist/
 # Environment variables
 .env
 .env.*
+
+# -----------------------------
+# OPTIONAL — If you want reports included in repo,
+# COMMENT THESE OUT
+# -----------------------------
+# *.docx
+# *.pdf
+# *.pptx
